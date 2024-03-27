@@ -1,0 +1,73 @@
+* {
+    font-family: sans-serif;
+}
+
+.signinall .centered-div {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.signinall .sign-in-section {
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px 0 rgba(28, 71, 112, 0.192), 0 6px 20px 0 rgba(28, 71, 112, 0.06);
+    padding: 20px;
+}
+
+    .signinall .sign-in-section h2 {
+        text-align: center;
+        color: #39a7ff;
+        margin-bottom: 20px;
+    }
+
+    .signinall .sign-in-section input {
+        box-sizing: border-box;
+        font-family: inherit;
+        font-size: 14px;
+        border-radius: 10px;
+        border: 1px solid #39a7ff;
+        padding: 10px;
+        width: 100%;
+    }
+
+        .signinall .sign-in-section input::placeholder {
+            color: #39a7ff;
+        }
+
+        .signinall .sign-in-section button,
+        .signinall .sign-in-section input[type="submit"] {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: #39a7ff;
+            color: white;
+            font-weight: 400;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+            .signinall .sign-in-section button:hover,
+            .signinall .sign-in-section input[type="submit"]:hover {
+                background: rgba(0, 118, 255, 0.9);
+                box-shadow: 0 6px 20px rgba(0, 118, 255, 0.23);
+            }
+
+.signinall .error-message {
+    margin-top: 10px;
+    color: red;
+    text-align: center;
+}
+
+.signinall .sign-up-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(28, 71, 112, 0.7);
+}
