@@ -1,0 +1,13 @@
+Project Features:
+
+Admin section:
+1)Add/Delete users
+2)Add/Edit/Delete books
+
+User section:
+1)sign in/sign up(authentication and register)
+2)choose subscription
+3)borrow number of books based on subscription type
+4)return book
+5)Profile to see bills of the user for the borrowed books
+6)Renewsubscription
